@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650">
+  <defs>
+    <linearGradient id="gvBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0518" />
+      <stop offset="40%" stop-color="#140a2e" />
+      <stop offset="100%" stop-color="#05030f" />
+    </linearGradient>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#06b6d4" />
+    </linearGradient>
+    <linearGradient id="magentaBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+    <filter id="neonBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="650" fill="url(#gvBg)" />
+
+  <!-- Cyber Grid Lines -->
+  <g stroke="rgba(168,85,247,0.12)" stroke-width="1">
+    <line x1="0" y1="130" x2="1000" y2="130" />
+    <line x1="0" y1="260" x2="1000" y2="260" />
+    <line x1="0" y1="390" x2="1000" y2="390" />
+    <line x1="0" y1="520" x2="1000" y2="520" />
+    <line x1="200" y1="0" x2="200" y2="650" />
+    <line x1="400" y1="0" x2="400" y2="650" />
+    <line x1="600" y1="0" x2="600" y2="650" />
+    <line x1="800" y1="0" x2="800" y2="650" />
+  </g>
+
+  <!-- Border -->
+  <rect x="24" y="24" width="952" height="602" rx="18" fill="none" stroke="url(#magentaBorder)" stroke-width="2.5" />
+  <rect x="36" y="36" width="928" height="578" rx="14" fill="none" stroke="rgba(236,72,153,0.25)" stroke-width="1" stroke-dasharray="8,6" />
+
+  <!-- Top Controller Brand Badge -->
+  <g transform="translate(500, 110)">
+    <circle cx="0" cy="0" r="42" fill="#130b29" stroke="url(#neonGlow)" stroke-width="2.5" filter="url(#neonBlur)" />
+    <!-- Gamepad Icon -->
+    <path d="M -18 -8 Q 0 -16 18 -8 Q 24 10 14 18 Q 8 16 0 12 Q -8 16 -14 18 Q -24 10 -18 -8 Z" fill="none" stroke="#f43f5e" stroke-width="2" />
+    <circle cx="-8" cy="2" r="2" fill="#38bdf8" />
+    <circle cx="8" cy="2" r="2" fill="#ec4899" />
+  </g>
+
+  <!-- Brand Title -->
+  <text x="500" y="186" text-anchor="middle" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="28" letter-spacing="4">GAMEOVIBE STUDIO &amp; LABS</text>
+  <text x="500" y="210" text-anchor="middle" fill="#f43f5e" font-family="Inter, sans-serif" font-weight="700" font-size="12" letter-spacing="3">AI GAME DEVELOPMENT • INTERACTIVE WEBGL JAMS</text>
+
+  <line x1="300" y1="228" x2="700" y2="228" stroke="url(#neonGlow)" stroke-width="2" />
+
+  <!-- Subheading -->
+  <text x="500" y="265" text-anchor="middle" fill="#a78bfa" font-family="Inter, sans-serif" font-weight="600" font-size="13" letter-spacing="3">CERTIFICATE OF INNOVATION &amp; MASTERY</text>
+
+  <!-- Recipient -->
+  <text x="500" y="325" text-anchor="middle" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="38" letter-spacing="1">KRISHNA CHIDAR</text>
+  <line x1="280" y1="345" x2="720" y2="345" stroke="url(#neonGlow)" stroke-width="2" />
+
+  <text x="500" y="375" text-anchor="middle" fill="#38bdf8" font-family="Inter, sans-serif" font-weight="600" font-size="14">Lead Frontend &amp; Game Dynamics Architect</text>
+
+  <text x="500" y="420" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="14">In recognition of outstanding performance in creating Gameovibe interactive game experiences,</text>
+  <text x="500" y="445" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="14">AI-driven NPC behavior models, real-time audio reactive audio and WebGL physics.</text>
+
+  <!-- Footer metadata -->
+  <g transform="translate(100, 505)">
+    <text x="0" y="0" fill="#94a3b8" font-family="Inter, sans-serif" font-size="11" letter-spacing="1">VERIFIED CREDENTIAL</text>
+    <text x="0" y="20" fill="#ec4899" font-family="monospace" font-weight="700" font-size="13">ID: GV-AI-884920-KC</text>
+    <text x="0" y="38" fill="#64748b" font-family="Inter, sans-serif" font-size="11">Track: AI Game Dev &amp; WebGL</text>
+  </g>
+
+  <!-- Center Hex Shield -->
+  <g transform="translate(500, 520)">
+    <polygon points="0,-24 22,-12 22,12 0,24 -22,12 -22,-12" fill="#1e1035" stroke="url(#neonGlow)" stroke-width="2" filter="url(#neonBlur)" />
+    <text x="0" y="5" text-anchor="middle" fill="#38bdf8" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14">GV</text>
+  </g>
+
+  <g transform="translate(720, 505)">
+    <text x="120" y="0" text-anchor="end" fill="#94a3b8" font-family="Inter, sans-serif" font-size="11" letter-spacing="1">ISSUING COMMITTEE</text>
+    <text x="120" y="22" text-anchor="end" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14">Gameovibe Jury</text>
+    <text x="120" y="38" text-anchor="end" fill="#a855f7" font-family="Inter, sans-serif" font-size="11">Interactive Entertainment Council</text>
+  </g>
+</svg>

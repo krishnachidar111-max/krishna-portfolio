@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="24" height="24">
+  <linearGradient id="pyA" x1="72.8" y1="128.5" x2="160.8" y2="40.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#387eb8"/><stop offset="1" stop-color="#366994"/></linearGradient>
+  <linearGradient id="pyB" x1="200.7" y1="18.4" x2="112.7" y2="106.4" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe873"/><stop offset="1" stop-color="#ffd43b"/></linearGradient>
+  <path fill="url(#pyA)" d="M63.8 0C28.4 0 30.7 15.3 30.7 15.3l.1 15.8h33.8v4.8H17.2S0 33.9 0 69.3c0 35.4 15 34.2 15 34.2h9v-12.7s-.5-15 14.8-15h34.3s14.3.2 14.3-13.8V15.3S90 0 63.8 0zm-15.1 9.9c2.8 0 5 2.2 5 5s-2.2 5-5 5-5-2.2-5-5 2.2-5 5-5z"/>
+  <path fill="url(#pyB)" d="M64.2 128c35.4 0 33.1-15.3 33.1-15.3l-.1-15.8H63.4v-4.8h47.4s17.2 2 17.2-33.4c0-35.4-15-34.2-15-34.2h-9v12.7s.5 15-14.8 15H47.9s-14.3-.2-14.3 13.8v46.5S38 128 64.2 128zm15.1-9.9c-2.8 0-5-2.2-5-5s2.2-5 5-5 5 2.2 5 5-2.2 5-5 5z"/>
+</svg>

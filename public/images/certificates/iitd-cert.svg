@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650">
+  <defs>
+    <linearGradient id="iitBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a101d" />
+      <stop offset="50%" stop-color="#0e172a" />
+      <stop offset="100%" stop-color="#070b14" />
+    </linearGradient>
+    <linearGradient id="goldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d4af37" />
+      <stop offset="25%" stop-color="#fff2a1" />
+      <stop offset="50%" stop-color="#aa7c11" />
+      <stop offset="75%" stop-color="#ffd700" />
+      <stop offset="100%" stop-color="#805a00" />
+    </linearGradient>
+    <linearGradient id="cyanAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38e1ff" />
+      <stop offset="100%" stop-color="#4d8dff" />
+    </linearGradient>
+    <filter id="goldGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1000" height="650" fill="url(#iitBg)" />
+
+  <!-- Outer Certificate Border -->
+  <rect x="24" y="24" width="952" height="602" rx="16" fill="none" stroke="url(#goldBorder)" stroke-width="3" />
+  <rect x="36" y="36" width="928" height="578" rx="12" fill="none" stroke="rgba(212, 175, 55, 0.25)" stroke-width="1" stroke-dasharray="8,6" />
+
+  <!-- Corner Flourishes -->
+  <path d="M 24 64 L 64 24 M 24 84 L 84 24 M 976 64 L 936 24 M 976 84 L 916 24 M 24 586 L 64 626 M 24 566 L 84 626 M 976 586 L 936 626 M 976 566 L 916 626" stroke="url(#goldBorder)" stroke-width="1.5" />
+
+  <!-- Header Seal / Emblem -->
+  <circle cx="500" cy="115" r="44" fill="#0d182b" stroke="url(#goldBorder)" stroke-width="2.5" filter="url(#goldGlow)" />
+  <circle cx="500" cy="115" r="38" fill="none" stroke="rgba(212,175,55,0.4)" stroke-width="1" stroke-dasharray="3,3" />
+  <text x="500" y="112" text-anchor="middle" fill="#ffd700" font-family="'Space Grotesk', serif" font-weight="700" font-size="16">IIT DELHI</text>
+  <text x="500" y="128" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-weight="600" font-size="9" letter-spacing="1">NEW DELHI</text>
+
+  <!-- Institution Title -->
+  <text x="500" y="185" text-anchor="middle" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="24" letter-spacing="2">INDIAN INSTITUTE OF TECHNOLOGY DELHI</text>
+  <text x="500" y="208" text-anchor="middle" fill="#ffd700" font-family="Inter, sans-serif" font-weight="600" font-size="13" letter-spacing="4">TECHNOLOGY &amp; INNOVATION SUMMIT • HACKATHON</text>
+
+  <line x1="320" y1="225" x2="680" y2="225" stroke="url(#goldBorder)" stroke-width="1.5" />
+  <polygon points="500,222 505,225 500,228 495,225" fill="#ffd700" />
+
+  <!-- Certificate Heading -->
+  <text x="500" y="265" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-weight="500" font-size="14" letter-spacing="3">THIS IS TO CERTIFY THAT</text>
+
+  <!-- Recipient Name -->
+  <text x="500" y="325" text-anchor="middle" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-weight="800" font-size="38" letter-spacing="1">KRISHNA CHIDAR</text>
+  <line x1="280" y1="345" x2="720" y2="345" stroke="url(#cyanAccent)" stroke-width="2" />
+
+  <!-- College & Affiliation -->
+  <text x="500" y="375" text-anchor="middle" fill="#38e1ff" font-family="Inter, sans-serif" font-weight="600" font-size="14">Sagar Institute of Science &amp; Technology (SISTEC), Bhopal</text>
+
+  <!-- Description Body -->
+  <text x="500" y="420" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="14" font-weight="400">has participated and demonstrated exceptional engineering problem solving and project implementation</text>
+  <text x="500" y="445" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="14" font-weight="400">at the National Hackathon &amp; Technology Summit held at the IIT Delhi Campus.</text>
+
+  <!-- Metadata & Signatures -->
+  <!-- Left: Credential ID -->
+  <g transform="translate(100, 505)">
+    <text x="0" y="0" fill="#94a3b8" font-family="Inter, sans-serif" font-size="11" letter-spacing="1">CREDENTIAL VERIFICATION</text>
+    <text x="0" y="20" fill="#ffd700" font-family="monospace" font-weight="700" font-size="13">ID: IITD-HACK-2026-KC904</text>
+    <text x="0" y="38" fill="#64748b" font-family="Inter, sans-serif" font-size="11">Venue: Hauz Khas, New Delhi</text>
+  </g>
+
+  <!-- Center: Gold Badge Ribbon -->
+  <g transform="translate(500, 520)">
+    <circle cx="0" cy="0" r="28" fill="#1e293b" stroke="url(#goldBorder)" stroke-width="2" />
+    <polygon points="0,-16 5,-5 16,-5 8,3 11,14 0,8 -11,14 -8,3 -16,-5 -5,-5" fill="#ffd700" />
+    <path d="M -12 24 L -18 52 L 0 42 L 18 52 L 12 24 Z" fill="url(#goldBorder)" opacity="0.9" />
+  </g>
+
+  <!-- Right: Signatory -->
+  <g transform="translate(720, 505)">
+    <text x="120" y="0" text-anchor="end" fill="#94a3b8" font-family="Inter, sans-serif" font-size="11" letter-spacing="1">ORGANIZING COMMITTEE</text>
+    <text x="120" y="22" text-anchor="end" fill="#ffffff" font-family="'Space Grotesk', sans-serif" font-weight="700" font-size="14">DevClub &amp; Tech Affairs</text>
+    <text x="120" y="38" text-anchor="end" fill="#ffd700" font-family="Inter, sans-serif" font-size="11">IIT Delhi Innovation Cell</text>
+  </g>
+</svg>
